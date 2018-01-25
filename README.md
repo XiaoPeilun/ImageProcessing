@@ -11,6 +11,15 @@ Result of using the following factors: 2 horizontal, 2 vertical, 2 vertical and 
 
 ![subsample](images//subsampling_images.jpg)
 
+b. up-sapmling
+
+Scaling-up an image (up-sampling) requires the filling of the new positions given the original pixels. This filling can be obtained by interpolation. Different interpolation techniques can be used. The choice depends on the quality we want to achieve and on the computation resources we have available.
+
+The **nearest-neighbour** interpolation is the simplest and fastest technique, but it is also a technique achieving low quality results. **Bilinear** interpolation is computationally more intensive, but it achieves higher quality results.
+
+The function is able to up-sample independently in the horizontal and in the vertical direction or in both directions simultaneously.
+
+
 ## Colour Image Opeartion
 
 a. 
