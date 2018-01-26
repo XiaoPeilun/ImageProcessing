@@ -3,7 +3,7 @@
 
 ## Grey Image Opeartion
 
-a. sub-sampling
+### a. sub-sampling
 
 Implement a function that sub-samples grey level images by a factor n, with n a multiple of 2. The function is able to sub-sample independently in the horizontal and in the vertical direction or in both directions at the same time.
 
@@ -11,7 +11,7 @@ Result of using the following factors: 2 horizontal, 2 vertical, 2 vertical and 
 
 ![subsample](images//subsampling_images.jpg)
 
-b. up-sapmling
+### b. up-sapmling
 
 Scaling-up an image (up-sampling) requires the filling of the new positions given the original pixels. This filling can be obtained by interpolation. Different interpolation techniques can be used. The choice depends on the quality we want to achieve and on the computation resources we have available.
 
@@ -22,4 +22,21 @@ The function is able to up-sample independently in the horizontal and in the ver
 
 ## Colour Image Opeartion
 
-a. 
+
+### a. negative
+
+Create the negative of the image (grey or colour):
+
+![negative](images//negative_lena.png)
+
+
+
+
+
+
+
+
+
+
+
+
