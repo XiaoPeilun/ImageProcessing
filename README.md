@@ -19,9 +19,17 @@ The **nearest-neighbour** interpolation is the simplest and fastest technique, b
 
 The function is able to up-sample independently in the horizontal and in the vertical direction or in both directions simultaneously.
 
+### c. histograms
+
+1. histogram
+A histogram is a statistical representation of the data within an image. The histogram can be represented as a plot of the frequency of occurrence of each grey level. This representation shows the distribution of the image data values. By manipulating a histogram, it is possible to improve the contrast in an image and the overall brightness or to segment different areas of the image by applying one or more thresholds to the histogram itself.
+
+The histogram of grey lena:
+![hist](images//hist_lena.png)
+
+
 
 ## Colour Image Opeartion
-
 
 ### a. negative
 
