@@ -24,17 +24,31 @@ The function is able to up-sample independently in the horizontal and in the ver
 #### Histogram
 A histogram is a statistical representation of the data within an image. The histogram can be represented as a plot of the frequency of occurrence of each grey level. This representation shows the distribution of the image data values. By manipulating a histogram, it is possible to improve the contrast in an image and the overall brightness or to segment different areas of the image by applying one or more thresholds to the histogram itself.
 
-The histogram of grey lena:
+The histogram of grey lena:  
 ![hist](images//hist_lena.png)
 
 #### Equalization
 Equalization is one of the possible image processing algorithms implemented using histograms. Histogram equalization allows a user to enhance the contrast of images. Histogram equalization employs a monotonic, non-linear mapping which re-assigns the intensity values of pixels in the input image such that the output image contains a uniform distribution of intensities (i.e. a flat histogram).
 
-lena histogram after equalization:
+lena histogram after equalization:  
 ![eqhist](images//eqhist_lena.png)
 
 lena equalized:  
 ![eq](images//equalized_lena.png)
+
+#### Modelling
+
+Histogram modelling techniques are effective tools for modifying the dynamic range and contrast of an image. Unlike contrast stretching, histogram modelling operators may employ non-linear and non-monotonic transfer functions to map between pixel intensity values in the input and output images. In the first part of this lab you will model the histogram of a grey-scale image.
+
+Use as input histogram an approximation of the exponential distribution:
+
+histogram after modelling:  
+![exphist](images//exphist_lena.png)
+
+lena after modelling:  
+![exp](images//exp_lena.png)
+
+
 
 
 ## Colour Image Opeartion
