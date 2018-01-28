@@ -1,8 +1,5 @@
 # ImageProcessing
 
-[TOC]
-
-
 
 ## Grey Image Opeartion
 
@@ -36,7 +33,7 @@ Equalization is one of the possible image processing algorithms implemented usin
 lena histogram after equalization:
 ![eqhist](images//eqhist_lena.png)
 
-lena equalized:
+lena equalized:  
 ![eq](images//equalized_lena.png)
 
 
