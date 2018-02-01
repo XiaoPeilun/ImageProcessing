@@ -60,6 +60,16 @@ lena quantization factor 8, only has value 0,32,64,96,128,160,192,224:
 
 ### Rotation
 
+**Inverse warping**
+
+In general, if we map each pixel P = [x,y] to a new position P′= W(x,y), we would end up with holes in the new image!
+
+This can be avoided by using the inverse of the warp W:
+– Loop through all destination pixels [x′,y′]
+– Find corresponding source position [x,y] = W−1(x′,y′)
+– Find colour f(x′,y′) = f(x,y) by interpolation in source image.
+
+In this implementation I use bilinear interpolation. But remember, interpolation may **blur** the result slightly.
 
 
 lena rotation (30 degree):  
