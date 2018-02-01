@@ -48,7 +48,7 @@ histogram after modelling:
 lena after modelling:  
 ![exp](images//exp_lena.png)
 
-#### Quantization
+### Quantization
 
 Quantization is the process of approximating the continuous values in the image data with a finite set of discrete values. The input of a quantizer is the original data and the output is one among the finite number of levels. This process is an approximation.
 
@@ -57,6 +57,15 @@ lena quantization factor 2, only has value 128 and 0:
 
 lena quantization factor 8, only has value 0,32,64,96,128,160,192,224:  
 ![quantization8](images//quantization8_lena.png)
+
+### Rotation
+
+
+
+lena rotation (30 degree):  
+![rotation30](images//rotate30_lena.png)
+
+
 
 
 ## Colour Image Opeartion
