@@ -75,7 +75,10 @@ In this implementation I use bilinear interpolation. But remember, interpolation
 lena rotation (30 degree):  
 ![rotation30](images//rotate30_lena.png)
 
+### Skewing
 
+lena skewing (30 degree):  
+![skewing30](images//skew30_lena.png)
 
 
 ## Colour Image Opeartion
