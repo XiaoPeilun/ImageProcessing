@@ -80,6 +80,16 @@ lena rotation (30 degree):
 lena skewing (30 degree):  
 ![skewing30](images//skew30_lena.png)
 
+### Edge Detection
+
+Edge detection is the process of identifying and locating discontinuities in an image. The discontinuities are sharp changes in pixel intensity which characterise object boundaries. Classical edge detectors convolve the image with a 2-D kernel designed to be sensitive to large gradient amplitudes. There exist a large number of edge detectors, each designed to be sensitive to certain types of edges.
+
+
+#### Roberts
+
+![roberts_lena](images//roberts_lena.png)
+
+
 
 ## Colour Image Opeartion
 
