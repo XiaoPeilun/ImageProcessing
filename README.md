@@ -71,7 +71,6 @@ This can be avoided by using the inverse of the warp W:
 
 In this implementation I use bilinear interpolation. But remember, interpolation may **blur** the result slightly.
 
-
 lena rotation (30 degree):  
 ![rotation30](images//rotate30_lena.png)
 
@@ -92,6 +91,10 @@ Edge detection is the process of identifying and locating discontinuities in an 
 #### Sobel
 
 ![sobel_lena](images//sobel_lena.png)
+
+#### Prewit
+
+![prewit_lena](images//prewit_lena.png)
 
 
 
