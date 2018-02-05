@@ -89,6 +89,10 @@ Edge detection is the process of identifying and locating discontinuities in an 
 
 ![roberts_lena](images//roberts_lena.png)
 
+#### Sobel
+
+![sobel_lena](images//sobel_lena.png)
+
 
 
 ## Colour Image Opeartion
