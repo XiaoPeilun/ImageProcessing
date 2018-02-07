@@ -116,7 +116,15 @@ But in this implementation, I used the separable form because it can reduce the 
 Gary Lena after gaussian filtering with variance of 5:  
 ![gaussian5_lena](images//gaussian5_lena.png)
 
+#### Mean filter
 
+Mean filter is quick but has severe edge blurring. 3x3 filter is as below:  
+![mean_filter](images//mean_filter.png)
+
+We need normalization to conserve the total “energy” of the image. For example, when convolving an uniform colour region, if we do not normalize our result, the colour may change after filtering.
+
+Gary Lena after mean filtering with size of 5x5:  
+![mean5_lena](images//mean5_lena.png)
 
 
 ## Colour Image Opeartion
