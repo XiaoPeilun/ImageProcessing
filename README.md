@@ -79,22 +79,6 @@ lena rotation (30 degree):
 lena skewing (30 degree):  
 ![skewing30](images//skew30_lena.png)
 
-### Edge Detection
-
-Edge detection is the process of identifying and locating discontinuities in an image. The discontinuities are sharp changes in pixel intensity which characterise object boundaries. Classical edge detectors convolve the image with a 2-D kernel designed to be sensitive to large gradient amplitudes. There exist a large number of edge detectors, each designed to be sensitive to certain types of edges.
-
-
-#### Roberts
-
-![roberts_lena](images//roberts_lena.png)
-
-#### Sobel
-
-![sobel_lena](images//sobel_lena.png)
-
-#### Prewit
-
-![prewit_lena](images//prewit_lena.png)
 
 ### Low-pass filtering
 
@@ -125,6 +109,34 @@ We need normalization to conserve the total “energy” of the image. For examp
 
 Gary Lena after mean filtering with size of 5x5:  
 ![mean5_lena](images//mean5_lena.png)
+
+
+### Edge Detection
+
+Edge detection is the process of identifying and locating discontinuities in an image. The discontinuities are sharp changes in pixel intensity which characterise object boundaries. Classical edge detectors convolve the image with a 2-D kernel designed to be sensitive to large gradient amplitudes. There exist a large number of edge detectors, each designed to be sensitive to certain types of edges.
+
+
+#### Roberts
+
+![roberts_lena](images//roberts_lena.png)
+
+#### Sobel
+
+![sobel_lena](images//sobel_lena.png)
+
+#### Prewit
+
+![prewit_lena](images//prewit_lena.png)
+
+#### Laplacian of Gaussian
+
+Laplacian filters are derivative filters used to find edges in images. Since derivative filters are very sensitive to noise, it is common to smooth the image before applying the Laplacian. For example, the image can be smoothed using a Gaussian filter. The two-step process involving Gaussian low-pass filtering followed by Laplacian filtering is called the Laplacian of Gaussian (LoG) operator.
+
+The formula used is [here](http://cn.mathworks.com/help/images/ref/fspecial.html#d119e42596)
+
+sigma = 0.3:  
+![log0point3_lena](images//log0point3_lena.png)
+
 
 
 ## Colour Image Opeartion
