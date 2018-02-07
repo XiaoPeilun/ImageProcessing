@@ -96,6 +96,27 @@ Edge detection is the process of identifying and locating discontinuities in an 
 
 ![prewit_lena](images//prewit_lena.png)
 
+### Low-pass filtering
+
+Image filtering generates a processed image as a result of certain operations on the pixels of the original image. Each pixel in the output image is computed as a function of one or several pixels in the original image, usually located near the output pixel. The procedure is usually implemented by convolving a kernel with desired properties with the pixels of the input image. 
+
+#### Gaussian Filter
+If the kernel is a Gaussian kernel, then the behaviour of the filter depends on the variance of the Gaussian. Gaussian function has a lot of good properties: The Fourier transform of a Gaussian is another Gaussian, of reciprocal width. The convolution of two Gaussians is another Gaussian.
+
+The general 2D Gaussian filter is as below:  
+![gaussian_filter](images//gaussian_filter.png)
+
+But in this implementation, I used the separable form because it can reduce the operation times while getting the same result. We can perform the 2D convolution by:
+* First filtering the rows of the input image.
+* Then filtering the columns of the result.
+* This is much faster than using the 2D kernel.
+
+![gaussian_filter_separable](images//gaussian_filter_separable.png)
+
+Gary Lena after gaussian filtering with variance of 5:  
+![gaussian5_lena](images//gaussian5_lena.png)
+
+
 
 
 ## Colour Image Opeartion
