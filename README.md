@@ -48,7 +48,7 @@ histogram after modelling:
 lena after modelling:  
 ![exp](images//exp_lena.png)
 
-### Quantization
+### d. Quantization
 
 Quantization is the process of approximating the continuous values in the image data with a finite set of discrete values. The input of a quantizer is the original data and the output is one among the finite number of levels. This process is an approximation.
 
@@ -58,7 +58,7 @@ lena quantization factor 2, only has value 128 and 0:
 lena quantization factor 8, only has value 0,32,64,96,128,160,192,224:  
 ![quantization8](images//quantization8_lena.png)
 
-### Rotation
+### e. Rotation
 
 **Inverse warping**
 
@@ -74,13 +74,13 @@ In this implementation I use bilinear interpolation. But remember, interpolation
 lena rotation (30 degree):  
 ![rotation30](images//rotate30_lena.png)
 
-### Skewing
+### f. Skewing
 
 lena skewing (30 degree):  
 ![skewing30](images//skew30_lena.png)
 
 
-### Low-pass filtering
+### g. Low-pass filtering
 
 Image filtering generates a processed image as a result of certain operations on the pixels of the original image. Each pixel in the output image is computed as a function of one or several pixels in the original image, usually located near the output pixel. The procedure is usually implemented by convolving a kernel with desired properties with the pixels of the input image. 
 
@@ -111,7 +111,7 @@ Gary Lena after mean filtering with size of 5x5:
 ![mean5_lena](images//mean5_lena.png)
 
 
-### Edge Detection
+### h. Edge Detection
 
 Edge detection is the process of identifying and locating discontinuities in an image. The discontinuities are sharp changes in pixel intensity which characterise object boundaries. Classical edge detectors convolve the image with a 2-D kernel designed to be sensitive to large gradient amplitudes. There exist a large number of edge detectors, each designed to be sensitive to certain types of edges.
 
